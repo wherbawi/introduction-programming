@@ -1,6 +1,7 @@
 
 public class SecondJava {
 	public static void main(String[] args) {
+		
 		String ws = "welcome to java";
 		System.out.println("******************");
 		System.out.println("* x          x*x *");
