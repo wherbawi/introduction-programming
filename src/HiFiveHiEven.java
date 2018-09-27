@@ -9,6 +9,7 @@ public class HiFiveHiEven {
 		if (a % 5 == 0) {
 			System.out.println("hi five");
 		}
+
 		if (a % 2 == 0) {
 			System.out.println("hi even");
 		}
