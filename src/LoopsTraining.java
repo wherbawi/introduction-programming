@@ -2,7 +2,9 @@
 public class LoopsTraining {
 
 	public static void main(String[] args) {
-		System.out.println("i  j   i*j");
+
+		int g = 'd';
+		System.out.println((char) (g + 3));
 		for (int i = 0; i < 10; i++) {
 			if (i == 4)
 				continue;
