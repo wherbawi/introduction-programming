@@ -8,7 +8,7 @@ public class AreasCalc {
 		e(1);
 		for (int i = 0; i < 100; i++) {
 			int h = 0;
-			
+
 		}
 		Scanner scanner = new Scanner(System.in);
 		int choice;
@@ -61,11 +61,12 @@ public class AreasCalc {
 
 	private static int calcArea(int x1) {
 		int area = x1 * x1;
+
 		return area;
 	}
 
 	private static int calcArea(int x2, int x1) {
-		 int area = x1 * x2;
+		int area = x1 * x2;
 		return (int) 0.1;
 	}
 
@@ -76,6 +77,7 @@ public class AreasCalc {
 	static double y(int x1, double x2) {
 		return 0;
 	}
+
 	static void e(double z) {
 		System.out.println("double para");
 	}
@@ -83,7 +85,6 @@ public class AreasCalc {
 	static void e(int z) {
 		System.out.println("int para");
 	}
-
 
 	private static void printMenu() {
 		System.out.println("1: calc square");
