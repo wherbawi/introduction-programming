@@ -8,6 +8,20 @@ public class BubbleSort {
 		sort(d);
 		System.out.println(Arrays.toString(d));
 
+		String[] x = { "e", "r", "t", "y" };
+		shift(x);
+		System.out.println(Arrays.toString(x));
+
+	}
+
+	private static void shift(String[] x) {
+		String tmp = x[0];
+		for (int i = 1; i < x.length; i++) {
+			x[i - 1] = x[i];
+		}
+		x[x.length - 1] = tmp;
+		// TODO Auto-generated method stub
+
 	}
 
 	private static void sort(int[] d) {
@@ -35,7 +49,7 @@ public class BubbleSort {
 		x[i] = x[j];
 		x[j] = temp;
 	}
-	
+
 	private static void swap(String[] x, int i, int j) {
 		String temp = x[i];
 		x[i] = x[j];
