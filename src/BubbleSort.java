@@ -20,8 +20,24 @@ public class BubbleSort {
 		}
 	}
 
+	private static void sortString(String[] d) {
+		for (int j = 0; j < d.length; j++) {
+			for (int i = 0; i < d.length - 1; i++) {
+				if (d[i].compareTo(d[i + 1]) > 0) {
+					swap(d, i, i + 1);
+				}
+			}
+		}
+	}
+
 	private static void swap(int[] x, int i, int j) {
 		int temp = x[i];
+		x[i] = x[j];
+		x[j] = temp;
+	}
+	
+	private static void swap(String[] x, int i, int j) {
+		String temp = x[i];
 		x[i] = x[j];
 		x[j] = temp;
 	}
